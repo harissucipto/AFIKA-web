@@ -183,8 +183,16 @@ const IndexPage = ({ data }) => (
             })}
           </div>
           <footer>
-            <p className="footerText">
-              Made by <span>UR</span>
+            <p
+              className="footerText"
+              style={{
+                color: "rgba(34, 23, 56, 0.5)",
+                fontWeight: "bold",
+                fontSize: 12,
+                marginTop: 20,
+              }}
+            >
+              Made by Dimas & Cipto
             </p>
             <div className="footerIcons">
               {configs.facebook_username && (
