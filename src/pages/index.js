@@ -48,7 +48,7 @@ const IndexPage = ({ data }) => (
               <ul>
                 {configs.presskit_download_link && (
                   <li>
-                    <a href={configs.presskit_download_link}>Press Kit</a>
+                    <a href={configs.presskit_download_link}>Download</a>
                   </li>
                 )}
               </ul>
@@ -184,13 +184,7 @@ const IndexPage = ({ data }) => (
           </div>
           <footer>
             <p className="footerText">
-              Made by{" "}
-              {configs.your_link ? (
-                <a href={configs.your_link}>{configs.your_name}</a>
-              ) : (
-                `${configs.your_name}`
-              )}
-              {configs.your_city && ` in ${configs.your_city}`}
+              Made by <span>UR</span>
             </p>
             <div className="footerIcons">
               {configs.facebook_username && (
@@ -207,7 +201,9 @@ const IndexPage = ({ data }) => (
 
               {configs.linkedin_username && (
                 <a
-                  href={`https://www.linkedin.com/in/${configs.linkedin_username}`}
+                  href={`https://www.linkedin.com/in/${
+                    configs.linkedin_username
+                  }`}
                   aria-label="LinkedIn"
                 >
                   <span className="fa-stack fa-1x">
