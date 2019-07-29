@@ -47,7 +47,7 @@ module.exports = {
     {
       title: "SPACED REPETITION",
       description:
-        "Metode menghafal kata dengan cara pengulangan berjeda dengan waktu optimal.",
+        "Metode menghafal kata dengan cara pengulangan berjeda dengan waktu optimal yang membantu dalam membentuk pola kebiasaan menghapal al-quran",
       fontawesome_icon_name: "sync",
     },
     {
