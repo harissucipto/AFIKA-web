@@ -3,7 +3,8 @@ module.exports = {
   appstore_link: "", // Enter App Store URL.
   playstore_link: "#", // Enter Google Play Store URL.
   google_analytics_ID: "", // Enter Google Analytics ID or ""
-  presskit_download_link: "#", // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+  presskit_download_link:
+    "https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40suciptoharis/AFIKA-b0adbb5774934edab78fd6b1e0e34418-signed.apk", // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
   video_or_screenshot: "screenshot", // "screenshot" or "video"
   app_url: "https://afika.xyz", // Domain of your website without path_prefix.
   path_prefix: "/", // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
@@ -67,7 +68,7 @@ module.exports = {
   topbar_title_color: "#ffffff",
   cover_overlay_color_rgba: "rgba(34, 23, 56, 0.8)",
   device_color: "black", // Set to "black", "blue", "coral", "white", or "yellow"
-  body_background_color: "ffffff",
+  body_background_color: "#ffffff",
   primary_text_color: "#000",
   content_width: "1170px",
   font: `"Helvetica Neue", sans-serif`,
