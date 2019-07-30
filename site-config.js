@@ -1,10 +1,11 @@
 module.exports = {
   // App Info
   appstore_link: "", // Enter App Store URL.
-  playstore_link: "#", // Enter Google Play Store URL.
+  playstore_link:
+    "https://play.google.com/store/apps/details?id=com.harissucipto.afika", // Enter Google Play Store URL.
   google_analytics_ID: "", // Enter Google Analytics ID or ""
   presskit_download_link:
-    "https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40suciptoharis/AFIKA-b0adbb5774934edab78fd6b1e0e34418-signed.apk", // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+    "https://play.google.com/store/apps/details?id=com.harissucipto.afika", // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
   video_or_screenshot: "screenshot", // "screenshot" or "video"
   app_url: "https://afika.xyz", // Domain of your website without path_prefix.
   path_prefix: "/", // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
